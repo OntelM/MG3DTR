@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sceneManager>
+
+	<backgroundColor>
+		<r>0.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</backgroundColor>
+
+	
+	
+	<cameras>
+		<camera id="1">
+			<position>
+				<x>0</x>
+				<y>200</y>
+				<z>0</z>
+			</position>
+      <rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </rotation>
+			<target>
+				<x>0</x>
+				<y>200</y>
+				<z>-500</z>
+			</target>
+			<up>
+				<x>0</x>
+				<y>1000</y>
+				<z>0</z>
+			</up>
+			<translationSpeed>400</translationSpeed>
+			<rotationSpeed>2.0</rotationSpeed>
+			<fov>45</fov>
+			<near>0.2</near>
+			<far>100000</far>
+		</camera>
+		<!-- eventual si alte cameras -->
+	</cameras>
+	<activeCamera>1</activeCamera>
+
+	
+	<objects>
+	
+	<object id="5">
+      <model>4</model>
+      <!-- id model -->
+      <shader>4</shader>
+      <!-- id shader -->
+      <type>skyBox</type>
+      <depthTest>true</depthTest>
+      <blend>true</blend>
+      <name>skyBox</name>
+      <!-- optional -->
+      <textures>
+        <texture id="2000"/>
+      </textures>
+      <position>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <rotation>
+        <x>3.1419</x>
+        <y>0</y>
+        <z>0</z>
+      </rotation>
+      <scale>
+        <x>50000</x>
+        <y>50000</y>
+        <z>50000</z>
+      </scale>
+      <selfRotateSpeed>0.1</selfRotateSpeed>
+      <followingCamera>
+        <cameras>
+          <camera>1</camera>
+        </cameras>
+        <ox/>
+        <oy/>
+        <oz/>
+      </followingCamera>
+
+      <lights>
+        <light>1</light>
+      </lights>
+    </object>
+	
+	
+	
+	
+	
+	
+		<object id="8">
+			<model>5</model><!-- id model -->
+			<shader>6</shader><!-- id shader -->
+			<textures>
+				<texture id="11"/>
+				<texture id="2000"/>
+			</textures>
+			<type>ReflectSkyBox</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>Bus</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>-800</x>
+				<y>30</y>
+				<z>-350</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>1.57</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>1.7</x>
+				<y>1.7</y>
+				<z>1.7</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+	
+
+		<object id="1">
+			<model>1</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="1"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>Crocodil_verde</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>800</x>
+				<y>30</y>
+				<z>-350</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>1.57</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>0.5</x>
+				<y>0.5</y>
+				<z>0.5</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+      
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+    
+    
+      
+      
+    <!-- glblend ultimele !--> 
+      
+    <object id="2">
+      <model>2</model>
+      <!-- id model -->
+      <shader>5</shader>
+      <!-- id shader -->
+      <type>normal</type>
+      <depthTest>true</depthTest>
+      <blend>true</blend>
+      <name>Witch</name>
+      <!-- optional -->
+      <textures>
+        <texture id="2"/>
+		<texture id="10"/>
+      </textures>
+      <position>
+        <!-- translatia -->
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>6.28</y>
+        <z>0</z>
+      </rotation>
+      <scale>
+        <x>0.5</x>
+        <y>0.5</y>
+        <z>0.5</z>
+      </scale>
+      <selfRotateSpeed>0.1</selfRotateSpeed>
+      <followingCamera>
+        <cameras>
+          <camera>1</camera>
+        </cameras>
+        <ox/>
+        <oy/>
+        <oz/>
+      </followingCamera>
+      <trajectory type="circle" iteration="-1" direction="normal" speed="1">
+        <center>
+          <!-- observatie: puteti considera centrul sa fie pos-ul obiectului,
+sau puteti sa nu mai definiti pos pentru obiectele cu traiectorie, pentru a fi mai
+clar xml-ul -->
+          <x>0</x>
+          <y>100</y>
+          <z>-350</z>
+        </center>
+        <radius>300</radius>
+        <rotationPlane>
+          <!-- elementele x,y,z cuprind aici unghiuri -->
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </rotationPlane>
+      </trajectory>
+      <lights>
+        <light>1</light>
+      </lights>
+    </object>
+    
+    
+      
+      
+      
+      
+    
+
+    
+      
+     
+    
+
+      
+        
+    <object id="4">
+      <model>generated</model>
+      <shader>3</shader>
+      <textures>
+        <texture id="6"/>
+        <texture id="7"/>
+        <texture id="8"/>
+        <texture id="9"/>
+      </textures>
+      <type>Terrain</type>
+      <wired/>
+      <depthTest>true</depthTest>
+      <blend>false</blend>
+      <name>Terrain</name>
+      <position>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <rotation>
+        <x>0.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </rotation>
+      <scale>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </scale>
+      <selfRotateSpeed>0.1</selfRotateSpeed>
+      <nrCel>72</nrCel>
+      <dimCel>128</dimCel>
+      <inaltimi>
+        <r>0</r>
+        <g>20</g>
+        <b>0</b>
+      </inaltimi>
+      <followingCamera>
+        <cameras>
+          <camera>1</camera>
+        </cameras>
+        <ox/>
+        <oy/>
+        <oz/>
+      </followingCamera>
+      <lights>
+        <light>1</light>
+      </lights>
+    </object>
+
+
+    <object id="6">
+			<model>6</model><!-- id model -->
+			<shader>8</shader><!-- id shader -->
+			<textures>
+				<texture id="12"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>Woman1</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>-400</x>
+				<y>20</y>
+				<z>-1050</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0.20</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>100.0</x>
+				<y>100.0</y>
+				<z>100.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		
+		
+		
+		
+		
+		
+		<object id="7">
+			<model>7</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="13"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>Woman2</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>100</x>
+				<y>20</y>
+				<z>50</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>1.57</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>100.0</x>
+				<y>100.0</y>
+				<z>100.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		
+		<object id="9">
+			<model>5</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="11"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>Bus2</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>-800</x>
+				<y>20</y>
+				<z>200</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>3.1419</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>1.7</x>
+				<y>1.7</y>
+				<z>1.7</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<trajectory type="line_strip" iteration="1" direction="directional" speed="100">
+        <!-- startPoint e chiar Pos -->
+        <points>
+          <point>
+            <x>1000</x>
+			<y>20</y>
+			<z>200</z>
+          </point>
+        </points>
+      </trajectory>
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		
+		<object id="10">
+			<model>9</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="16"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>obiect</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>100</x>
+				<y>20</y>
+				<z>-1000</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>8.0</x>
+				<y>8.0</y>
+				<z>8.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		
+		<object id="11">
+			<model>10</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="17"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>obiect</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>-500</x>
+				<y>20</y>
+				<z>-1500</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>16.0</x>
+				<y>16.0</y>
+				<z>16.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		<object id="12">
+			<model>11</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="17"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>obiect</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>-100</x>
+				<y>20</y>
+				<z>-1200</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>16.0</x>
+				<y>16.0</y>
+				<z>16.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		<object id="13">
+			<model>12</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="17"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>obiect</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>100</x>
+				<y>20</y>
+				<z>-1000</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>16.0</x>
+				<y>16.0</y>
+				<z>16.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		<object id="14">
+			<model>13</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="17"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>obiect</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>-400</x>
+				<y>20</y>
+				<z>-1000</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>16.0</x>
+				<y>16.0</y>
+				<z>16.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		<object id="15">
+			<model>14</model><!-- id model -->
+			<shader>5</shader><!-- id shader -->
+			<textures>
+				<texture id="8"/>
+				<texture id="10"/>
+			</textures>
+			<type>normal</type>
+			<depthTest>true</depthTest>
+			<blend>true</blend>
+			<name>obiect</name><!-- optional -->
+			<position><!-- translatia -->
+				<x>0</x>
+				<y>20</y>
+				<z>-1000</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>6.0</x>
+				<y>6.0</y>
+				<z>6.0</z>
+			</scale>
+			<selfRotateSpeed>0.1</selfRotateSpeed>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		
+    
+    
+  
+    <object id="20">
+      <model>3</model>
+      <!-- id model -->
+      <shader>2</shader>
+      <!-- id shader -->
+      <type>fire</type>
+      <depthTest>true</depthTest>
+      <blend>true</blend>
+      <name>fire</name>
+      <dispMax>0.25</dispMax>
+      <!-- optional -->
+      <textures>
+        <texture id="4"/>
+        <texture id="3"/>
+        <texture id="5"/>
+      </textures>
+      <position>
+        <x>100</x>
+        <y>-45</y>
+        <z>-350</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>6.28</y>
+        <z>0</z>
+      </rotation>
+      <scale>
+        <x>10</x>
+        <y>10</y>
+        <z>10</z>
+      </scale>
+      <selfRotateSpeed>0.1</selfRotateSpeed>
+      <followingCamera>
+        <cameras>
+          <camera>1</camera>
+        </cameras>
+        <ox/>
+        <oy/>
+        <oz/>
+      </followingCamera>
+
+      <lights>
+        <light>1</light>
+      </lights>
+    </object>
+  </objects>
+  
+  
+  
+  
+  
+  
+  
+  
+<fog>
+  <color>
+    <r>0.74</r>
+    <g>0.74</g>
+    <b>0.82</b>
+  </color> 
+<r>1500</r>
+<R>3000</R>
+<Rfog>2500</Rfog>
+
+</fog>
+	<lights>
+		<light id="0">
+			<type>point</type>
+			<associatedObject>2</associatedObject>
+			<position>
+				<x>-200</x>
+				<y>200</y>
+				<z>-900</z>
+			</position>
+			<ambiental>
+				<r>0.5</r>
+				<g>0.5</g>
+				<b>0.5</b>
+			</ambiental>
+			<diffuseColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</diffuseColor>
+			<specularColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</specularColor>
+			<specCoef>1.0</specCoef>
+			<specPower> 80.0</specPower>
+			<diffCoef>1.0</diffCoef>
+			<shininess>0.0</shininess>
+			<attenuation>0.0115</attenuation>
+			<ratio>0.2</ratio>
+		</light>
+	</lights>
+	
+	
+	
+	<collision>
+		<color>
+			<r>1.0</r>
+			<g>0.0</g>
+			<b>0.0</b>
+		</color>
+	</collision>
+	
+	<sounds>
+		<sound id="1">
+		<name>ambiental</name>
+		</sound>
+		<sound id="2">
+		<name>toc</name>
+		</sound>
+	</sounds>
+	
+	<texts>
+		<text id="1">
+			<value>Hello World!</value>
+			<shader>7</shader>
+			<textures>
+				<texture id="15" />
+			</textures>
+		</text>
+	</texts>
+	
+	
+	
+	
+	
+	
+	
+	
+	<debugSettings>
+		<objectAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OYColor>
+			<OZColor>
+				<r>0.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</objectAxes>
+		<camAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</OYColor>
+			<OZColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</camAxes>
+	</debugSettings>
+	
+</sceneManager>
