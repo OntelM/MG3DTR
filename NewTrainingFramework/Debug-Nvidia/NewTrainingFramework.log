@@ -1,0 +1,6 @@
+﻿  SceneObject.cpp
+d:\mg3dtr\project\test\newtrainingframework_2015\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+d:\mg3dtr\project\test\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(172): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+d:\mg3dtr\project\test\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(311): warning C4018: '<': signed/unsigned mismatch
+  NewTrainingFramework.vcxproj -> D:\MG3DTR\Project\test\NewTrainingFramework_2015\\BIN-Nvidia\NewTrainingFramework.exe
+  NewTrainingFramework.vcxproj -> D:\MG3DTR\Project\test\NewTrainingFramework_2015\\BIN-Nvidia\NewTrainingFramework.pdb (Full PDB)
