@@ -1,1 +1,11 @@
-﻿  Utilities.vcxproj -> D:\Project\MG3DTR\Project\test\GameEngne\\BIN-Nvidia\Utilities.lib
+﻿  stdafx.cpp
+  TGA.cpp
+  Math.cpp
+c:\users\ontel\documents\github\mg3dtr\utilities\math.cpp(10): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\utilities\math.cpp(104): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\utilities\math.cpp(209): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  esUtil_win.cpp
+  esUtil.cpp
+  esShader.cpp
+  Generating Code...
+  Utilities.vcxproj -> C:\Users\ontel\Documents\GitHub\MG3DTR\\BIN-Nvidia\Utilities.lib

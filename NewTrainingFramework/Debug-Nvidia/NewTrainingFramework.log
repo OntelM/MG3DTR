@@ -1,2 +1,137 @@
-﻿  NewTrainingFramework.vcxproj -> D:\Project\MG3DTR\Project\test\GameEngne\\BIN-Nvidia\NewTrainingFramework.exe
-  NewTrainingFramework.vcxproj -> D:\Project\MG3DTR\Project\test\GameEngne\\BIN-Nvidia\NewTrainingFramework.pdb (Full PDB)
+﻿  stdafx.cpp
+  Texture.cpp
+  TextRendering.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\textrendering.cpp(153): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\textrendering.cpp(156): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\textrendering.cpp(160): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\textrendering.cpp(161): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Terrain .cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\terrain .cpp(36): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\terrain .cpp(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\terrain .cpp(216): warning C4018: '<': signed/unsigned mismatch
+  Sound.cpp
+  SkyBox.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+  Shaders.cpp
+  SceneObject.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.cpp(172): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.cpp(311): warning C4018: '<': signed/unsigned mismatch
+  SceneManager.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(54): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(55): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(56): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(65): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(66): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(67): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(71): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(72): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(73): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(77): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(78): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(79): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(83): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(84): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(85): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(88): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(89): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(90): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(91): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(92): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(115): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(117): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(123): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(127): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(131): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(135): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(159): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(162): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(198): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(204): warning C4244: '=': conversion from 'double' to 'GLint', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(224): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(228): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(229): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(230): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(234): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(237): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(238): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(239): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(241): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(242): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(243): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(246): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(249): warning C4244: '=': conversion from 'double' to 'GLint', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(261): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(292): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(302): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(316): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(320): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(328): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(333): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(349): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(351): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(352): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(353): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\rapidxml_utils.hpp(40): warning C4244: 'initializing': conversion from 'std::streamoff' to 'std::size_t', possible loss of data
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\rapidxml_utils.hpp(28): note: while compiling class template member function 'rapidxml::file<char>::file(const char *)'
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(44): note: see reference to function template instantiation 'rapidxml::file<char>::file(const char *)' being compiled
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\scenemanager.cpp(44): note: see reference to class template instantiation 'rapidxml::file<char>' being compiled
+  ResourceManager.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\rapidxml_utils.hpp(40): warning C4244: 'initializing': conversion from 'std::streamoff' to 'std::size_t', possible loss of data
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\rapidxml_utils.hpp(28): note: while compiling class template member function 'rapidxml::file<char>::file(const char *)'
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\resourcemanager.cpp(35): note: see reference to function template instantiation 'rapidxml::file<char>::file(const char *)' being compiled
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\resourcemanager.cpp(35): note: see reference to class template instantiation 'rapidxml::file<char>' being compiled
+  ReflectSkyBox.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+  Model.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(71): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'GLushort *'
+  c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(71): note: consider using '%hd' in the format string
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(41): warning C4101: 'listCubeDebug': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(159): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(177): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(180): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(206): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(231): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(236): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(150): warning C4101: 'a': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(145): warning C4101: 'listCubeDebug': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'uy': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'tx': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'nx': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'ny': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(150): warning C4101: 'b': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'bz': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'nz': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(146): warning C4101: 'w': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'ty': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'ux': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'tz': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'by': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(137): warning C4101: 'bx': unreferenced local variable
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\model.cpp(200): warning C4101: 'lineHeader': unreferenced local variable
+  NewTrainingFramework.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+  Light.cpp
+  Fire.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\fire.cpp(91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  EventsClass.cpp
+c:\users\ontel\documents\github\mg3dtr\newtrainingframework\sceneobject.h(50): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+  Camera.cpp
+  Generating Code...
+Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  NewTrainingFramework.vcxproj -> C:\Users\ontel\Documents\GitHub\MG3DTR\\BIN-Nvidia\NewTrainingFramework.exe
+  NewTrainingFramework.vcxproj -> C:\Users\ontel\Documents\GitHub\MG3DTR\\BIN-Nvidia\NewTrainingFramework.pdb (Full PDB)
