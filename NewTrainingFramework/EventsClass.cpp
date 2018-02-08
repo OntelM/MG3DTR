@@ -19,8 +19,8 @@ void EventsClass::Collision(int id) {
 	idSound = id;
 	map<GLint, SceneObject*> obj = SceneManager::getInstance()->objectMap;
 	for (map<GLint, SceneObject*>::iterator objA = obj.begin(); objA != obj.end(); objA++) {
-
 		for (map<GLint, SceneObject*>::iterator objB = obj.begin(); objB != obj.end(); objB++) {
+
 			if (objA->second->id != objB->second->id && (objA->second->type != terrainS) && (objB->second->type != terrainS) &&
 				(objA->second->type != skyBoxS) && (objB->second->type != skyBoxS)) {
 
